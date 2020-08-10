@@ -89,17 +89,10 @@ p{ line-height:10px}
      </div>
 <br />
 
-
-	<div>
-		<span class="heading_title">故事</span> Story
-	</div>
-	
-	<div id= introuce >
-	<span class="introduce">用細膩繁複線條與色彩描繪過去，現在，未來，不存在的世界，<br />
-靈感來自於書，生活，夢，電影，自然，歷史，女巫，旅行。<br />
-	</span>
-	</div>
-	<span class="title_list "><a href="about.html">About</a>
+	<div style="display: flex;">
+    <!-- Sidebar -->
+    <aside style="width: 30%;">
+    <span class="title_list "><a href="about.html">About</a>
     </span>
 <br />
 	<span class="title_list "><a href="publiction.html">Publiction</a>
@@ -118,6 +111,30 @@ p{ line-height:10px}
   <a href="WU-YU Dance Conference booklet.html">WU-YU Dance Conference booklet</a>
 	</p> 
 <br /> 
+    </aside>
+
+    <!-- Main -->
+    <main style="
+        /* Take the remaining width */
+        flex: 1;
+
+        /* Make it scrollable */
+        overflow: auto;
+    ">
+       <div>
+		<span class="heading_title">故事</span> Story
+	</div>
+	
+	<div id= introuce >
+	<span class="introduce">用細膩繁複線條與色彩描繪過去，現在，未來，不存在的世界，<br />
+	靈感來自於書，生活，夢，電影，自然，歷史，女巫，旅行。<br />
+	</span>
+	</div>
+    </main>
+</div>
+	
+	
+	
 	
 <a href="publiction.html"target="_blank" ><img src="./src/12.jpg" width="500" height="400"border="0" /></a>
 	<span class="introduce">
