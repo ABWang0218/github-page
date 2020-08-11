@@ -77,6 +77,28 @@ footer {
 p{ line-height:10px} 
 /* css 註釋： 設定行高為20px */ 
 
+#DIV1{
+width:500px;
+line-height:50px;
+padding:10px;
+float:left;
+
+}
+
+#DIV2{
+width:500px;
+line-height:50px;
+padding:10px;
+float:left;
+}
+
+.banner h1 a:hover{
+color: #fc3a63; /* 當滑鼠經過時，超連結文字顏色變成桃紅色 */
+position: relative; /* 當滑鼠經過超連結時，超連結往右下位移1像素 */
+top: 1px;
+left: 1px;
+
+}
 	
 </style>
 
@@ -92,8 +114,10 @@ p{ line-height:10px}
 	<div style="display: flex;">
     <!-- Sidebar -->
     <aside style="width: 30%;">
-    <span class="title_list "><a href="about.html">About</a>
-    </span>
+        <div class="banner h1 a:hover ">
+        <span class="title_list "><a href="about.html">About</a>
+    	</span>
+        </div>
 <br />
 	<span class="title_list "><a href="publiction.html">Publiction</a>
     </span>
@@ -110,7 +134,6 @@ p{ line-height:10px}
 	<p>
   <a href="WU-YU Dance Conference booklet.html">WU-YU Dance Conference booklet</a>
 	</p> 
-<br /> 
     </aside>
 
     <!-- Main -->
@@ -121,37 +144,46 @@ p{ line-height:10px}
         /* Make it scrollable */
         overflow: auto;
     ">
-       <div>
+    	<div>
 		<span class="heading_title">故事</span> Story
-	</div>
+		</div>
 	
-	<div id= introuce >
-	<span class="introduce">用細膩繁複線條與色彩描繪過去，現在，未來，不存在的世界，<br />
-	靈感來自於書，生活，夢，電影，自然，歷史，女巫，旅行。<br />
+		<div id= introuce >
+		<span class="introduce">用細膩繁複線條與色彩描繪過去，現在，未來，不存在的世界，<br />
+靈感來自於書，生活，夢，電影，自然，歷史，女巫，旅行。<br />
+一輩子這麼長，一輩子這麼短。
+<br />
 	</span>
 	</div>
     </main>
 </div>
 	
 	
-	
-	
-<a href="publiction.html"target="_blank" ><img src="./src/12.jpg" width="500" height="400"border="0" /></a>
+<br /> 
+	<div id="DIV1"><a href="publiction.html"target="_blank" ><img src="./src/12.jpg" width="500" height="400"border="0" /></a>
 	<span class="introduce">
-	Witch's Room
-	</span>	
+	Witch's Room</div>
+    
+	<div id="DIV2"><div>
 <a href="Fern Paradise.html"target="_blank" ><img src="./src/19.jpg" width="500" height="350"border="0" /></a>
 	<span class="introduce">
 	Fern Paradise
-	</span>	
-<a href="Lo Sui.html"target="_blank" ><img src="./src/1.jpg" width="700" height="500"border="0" /></a>
+	</span>
+    </div>
+
+	    
+    
+<div id="DIV1"><a href="Lo Sui.html"target="_blank" ><img src="./src/1.jpg" width="700" height="500"border="0" /></a>
 	<span class="introduce">
 	Lo Shu
-	</span>	
+	</span>
+    </div>
+    <div id="DIV2">	
 <a href="illustraction.html"target="_blank" ><img src="./src/139.jpg" width="400" height="600"border="0" /></a> 
 	<span class="introduce">
 	Illustraction：Plant Maze
 	</span>	
+    </div>
 <br />
 <br />
 <br />
