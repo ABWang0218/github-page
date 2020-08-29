@@ -48,7 +48,7 @@ line-height:22px;
 p{ line-height:10px} 
 /* css 註釋： 設定行高為20px */ 
 
-.banner h1 a:hover{
+.banner .title_list a:hover{
 color: #fc3a63; /* 當滑鼠經過時，超連結文字顏色變成桃紅色 */
 position: relative; /* 當滑鼠經過超連結時，超連結往右下位移1像素 */
 top: 1px;
@@ -58,8 +58,8 @@ left: 1px;
 .waterfall{
   width: 85%;
   margin: 20 auto;
-  column-count:2; <!-- 欄數 -->
-  column-gap:20px; <!-- 每欄間隔 -->
+  column-count:2; /*  欄數 */
+  column-gap:20px; /*  每欄間隔 */
 }
 	
 </style>
@@ -72,11 +72,11 @@ left: 1px;
 <div style="display: flex;">
     <!-- Sidebar -->
     <aside style="width: 15%;">
-        <div class="banner h1 a:hover ">
+        <div class="banner .title_list a:hover ">
         	<span class="title_list "><a href="about.html">About</a>
     		</span>
-        </div>
-			<span class="title_list "><a href="publiction.html">Publiction</a>
+			</br>
+       		<span class="title_list "><a href="publiction.html">Publiction</a>
     		</span>
 			<p>
   			<a href="Witch's Room.html">Witch's Room</a>
@@ -90,7 +90,8 @@ left: 1px;
     		</span>
 			<div style="border:1px ;padding:0px;">
   			<a href="WU-YU Dance Conference booklet.html">WU-YU Dance Conference booklet</a>
-			</div> 
+			</div>
+		</div>
     </aside>
 
 <!-- Main -->

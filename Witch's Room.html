@@ -25,7 +25,6 @@ font-weight:bold;
 color: #000000;/*字體顏色*/
 font-family: "微軟正黑體";/*字體*/
 line-height:10px;
-margin: 10px auto;
 }	
 
 .title_page {
@@ -44,38 +43,117 @@ font-weight:bold;
 line-height:22px;
 }	
 	
+p{ line-height:10px} 
+/* css 註釋： 設定行高為20px */ 
+
+.banner .title_list a:hover{
+color: #fc3a63; /* 當滑鼠經過時，超連結文字顏色變成桃紅色 */
+position: relative; /* 當滑鼠經過超連結時，超連結往右下位移1像素 */
+top: 1px;
+left: 1px;
+}
+	
+.waterfall{
+  width: 100%;
+  margin: 20 auto;
+  column-count:2; /*  欄數 */
+  column-gap:20px; /*  每欄間隔 */
+}
+	
+.pos_fixed
+{
+	position:fixed;
+	top:10px;
+	left:200px;
+}	
 </style>	
 </head>
 	
 <body>	
-<div>
-		<span class="title_page">Witch's Room</span>女巫的房間
-     </div>
-<br />
-	<div id= introuce >
-	<span class="introduce">This project explores the relationship between misogyny and women’s literature. <br />From this starting point I created visual responses that speak to five major areas: Career, Birth, Sex, Body Control and Hate Speech. <br />My work incorporates a layered approach through the use of transparent paper to metaphorically represent the barriers faced by women in our society.<br />
-	畢製主題以歷史上的女巫與現代厭女症為連繫，
-	共分五個面相: 職場，生育，性自主，身體掌控，
-	仇恨言論，來討論現代女性面對的厭女症狀。
-	<br />	
-	<br /></span>
+<div style="display: flex;">
+    <!-- Sidebar -->
+    <aside style="width: 15%;">
+	<span class="title_page">Plant Maze</span></br>植物迷宮
+	</span>
+        <div class="banner .title_list a:hover ">
+        	<span class="title_list "><a href="home.html">Home</a>
+    		</span>
+        	<br />
+			<span class="title_list "><a href="about.html">About</a>
+    		</span>
+			<br />
+			<span class="title_list ">
+  			<a href="publiction.html">Publiction</a>
+			</span>
+			<br />
+  			<p>
+  			<a href="Fern Paradise.html">Fern Paradise</a>
+			</p>
+  			<p>
+  			<a href="Lo Sui.html">Lo Shu</a>
+			</p>  
+			<span class="title_list "><a href="illustraction.html">Illustraction</a>
+    		</span>
+			<div style="border:1px ;padding:0px;">
+  				<a href="WU-YU Dance Conference booklet.html">WU-YU Dance Conference booklet
+				</a>
+			</div>
+		</div>
+	</aside>
+    <!-- Main -->
+    <main style="
+        /* Take the remaining width */
+        flex: 1;
+        /* Make it scrollable */
+        overflow: auto;">
+	<div>	
+    		<div class="pos_fixed">		
+				<span class="title_page">Witch's Room</span>女巫的房間
+			</div>	
+     		<br />
+	</div>		
+		<div id= introuce >
+			<span class="introduce">This project explores the relationship between misogyny and women’s literature. <br />From this starting point I created visual responses that speak to five major areas: Career, Birth, Sex, Body Control and Hate Speech. <br />My work incorporates a layered approach through the use of transparent paper to metaphorically represent the barriers faced by women in our society.<br />
+			畢製主題以歷史上的女巫與現代厭女症為連繫，
+			共分五個面相: 職場，生育，性自主，身體掌控，
+			仇恨言論，來討論現代女性面對的厭女症狀。
+		</div>		
+			<br />	
+			<br />
+					
+				
+			</span>
+			<div class="waterfall" >
+				<div style="padding:15px 0px;">
+					<div class="item"><!-- 第一張卡片 -->
+					<img src="./src/11.jpg" width="450" height="350"border="0"/>
+					</div>
+				</div>
+				<div style="padding:15px 0px;">
+					<div class="item"><!-- 第二張卡片 -->
+					<img src="./src/13.jpg" width="450" height="350"border="0" />
+					</div>
+				</div>	
+				<div style="padding:15px 0px;">
+					<div class="item"><!-- 第三張卡片 -->	
+					<img src="./src/2.png" width="350" height="500"border="0" />
+					</div>
+				</div>
+				<div style="padding:15px 0px;">
+					<div class="item"><!-- 第四張卡片 -->
+					<img src="./src/4.png" width="400" height="400"border="0" />
+					</div>
+				</div>
+				<div style="padding:15px 0px;">
+					<div class="item"><!-- 第四張卡片 -->
+					<img src="./src/6.png" width="400" height="400"border="0" />
+					</div>
+				</div>
+			</div>
+			第四個網頁：回到 <a href="home.html">首頁</a>
 	</div>
-	
-	<img src="./src/11.jpg" width="500" height="400"border="0" />
-	<br />
-	<br />
-	<img src="./src/13.jpg" width="500" height="400"border="0" />
-	<br />
-	<br />
-	<img src="./src/2.png" width="350" height="500"border="0" />
-	<br />
-	<br />
-	<img src="./src/4.png" width="450" height="500"border="0" />
-	<br />
-	<br />
-	<img src="./src/6.png" width="450" height="500"border="0" />
-	<br />
-	<br />
-  第三個網頁：回到 <a href="home.html">首頁</a>
+	</div>
+    </main>
+
   </body>
 </html>
