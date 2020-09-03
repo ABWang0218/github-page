@@ -44,40 +44,98 @@ font-weight:bold;
 line-height:22px;
 }	
 	
+p{ line-height:10px} 
+/* css 註釋： 設定行高為20px */ 
+
+.banner .title_list a:hover{
+color: #fc3a63; /* 當滑鼠經過時，超連結文字顏色變成桃紅色 */
+position: relative; /* 當滑鼠經過超連結時，超連結往右下位移1像素 */
+top: 1px;
+left: 1px;
+}
+	
+.waterfall{
+  width: 100%;
+  margin: 20 auto;
+  column-count:2; /*  欄數 */
+  column-gap:20px; /*  每欄間隔 */
+}
+	
+.pos_fixed
+{
+	position:fixed;
+	top:10px;
+	left:200px;
+}		
+	
+	
 </style>	
 </head>
 	
 <body>	
 <div>
-		<span class="title_page">WU-YU Dance Conference booklet</span>舞雩舞集 節目冊(2017)
-     </div>
-<br />
-	<div id= introuce >
-	<span class="introduce">Designed for WU-YU Dance Conference to celebrate they
-	have established 25 years.<br />
-	The client wanted to apply three concepts: Magic, East
-	traditional dance and Spanish cultures to combine them
-	together in each image.<br />Using bright colours to present childern's performance.<br />
-	The book cover presents the dancing spirit like a tree
-	growing up year by year like life.<br />成立25 周年的孩童舞蹈團，客戶需求為以插圖呈
-	現多種舞曲的概念意象，封面希望能呈現25 年以
-	來的向下扎根而逐漸茁壯成長，生生不息的傳統
-	與現代舞蹈之美。<br />
-	<br /></span>
-	</div>
+	<span class="title_page">Plant Maze</span></br>植物迷宮
+</div>
+<div style="display: flex;">
+    <!-- Sidebar -->
+    <aside style="width: 15%;">
+        <div class="banner .title_list a:hover ">
+        	<span class="title_list "><a href="home.html">Home</a>
+    		</span>
+			</br>
+       		<span class="title_list "><a href="about.html">About</a>
+    		</span>
+			<span class="title_list "><a href="publiction.html">Publiction</a>
+    		</span>
+			<p>
+  			<a href="Witch's Room.html">Witch's Room</a>
+			</p>
+  			<p>
+  			<a href="Fern Paradise.html">Fern Paradise</a>
+			</p>
+  			<p>
+  			<a href="Lo Sui.html">Lo Shu</a>	</p>  
+			<span class="title_list "><a href="illustraction.html">Illustraction</a>
+    		</span>
+			</div>
+    </aside>
+
+<!-- Main -->
+	<main style="
+        /* Take the remaining width */
+        flex: 50;
+        /* Make it scrollable */
+        overflow: auto;
+    ">
+		<div class="pos_fixed">		
+				<span class="title_page">WU-YU Dance Conference booklet</span>舞雩舞集 節目冊(2017)
+		</div>	
+     	<div style="padding:0px 0px;">
+				<span class="introduce">Designed for WU-YU Dance Conference to celebrate 	theyhave established 25 years.<br />
+				The client wanted to apply three concepts: Magic, East
+				traditional dance and Spanish cultures to combine them
+				together in each image.<br />Using bright colours to present childern's performance.<br />
+				The book cover presents the dancing spirit like a tree
+				growing up year by year like life.<br />成立25 周年的孩童舞蹈團，客戶需求為以插圖呈
+				現多種舞曲的概念意象，封面希望能呈現25 年以
+				來的向下扎根而逐漸茁壯成長，生生不息的傳統
+				與現代舞蹈之美。<br /><br />
+				</span>
+		</div>
 	
-	<img src="./src/20.jpg" width="1200" height="500"border="0" />
-	<br />
-	<br />
-	<img src="./src/21.jpg" width="1200" height="500"border="0" />
-	<br />
-	<br />
-	<img src="./src/22.jpg" width="1200" height="500"border="0" />
-	<br />
-	<br />
-	<img src="./src/23.jpg" width="1200" height="500"border="0" />
-	<br />
-	<br />
-  第七個網頁：回到 <a href="home.html">首頁</a>
-  </body>
+				<img src="./src/20.jpg" width="1200" height="500"border="0" />
+				<br />
+				<br />
+				<img src="./src/21.jpg" width="1200" height="500"border="0" />
+				<br />
+				<br />
+				<img src="./src/22.jpg" width="1200" height="500"border="0" />
+				<br />
+				<br />
+				<img src="./src/23.jpg" width="1200" height="500"border="0" />
+				第七個網頁：回到 <a href="home.html">首頁</a>	
+</div>
+				
+</main> 
+</body>
 </html>
