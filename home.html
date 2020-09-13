@@ -1,73 +1,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
 <title>植物迷宮</title>
+<link rel=stylesheet type="text/css" href="mycss.css">
 <meta name="keywords" content="AB,chromeqqq,女巫,植物">
-<style type="text/css">
-
-body {
-background-color: #ffffff;
-text-align: left;
-font-family:"微軟正黑體";
-font-size: 16px;/*字體大小*/
-}
-
-.introduce {
-font-size: 16px;/*字體大小*/
-font-weight: regular;/*粗體字*/
-color: #000033;/*字體顏色*/
-font-family: "微軟正黑體";/*字體*/
-}	
-	
-.heading_title {
-font-size: 20px;/*字體大小*/
-font-weight:bold;
-color: #000000;/*字體顏色*/
-font-family: "微軟正黑體";/*字體*/
-line-height:10px;
-margin: 10px auto;
-}	
-
-.title_page {
-font-size: 30px;/*字體大小*/
-color: #000000;/*字體顏色*/
-font-family: "Forte";/*字體*/
-line-height:16px;
-}
-
-.title_list {
-font-size: 16px;/*字體大小*/
-color: #000000;/*字體顏色*/
-font-family: "微軟正黑體";/*字體*/
-font-style:oblique;/*斜體*/	
-font-weight:bold;
-line-height:22px;
-}
-
-
-p{ line-height:10px} 
-/* css 註釋： 設定行高為20px */ 
-
-.banner .title_list a:hover{
-color: #fc3a63; /* 當滑鼠經過時，超連結文字顏色變成桃紅色 */
-position: relative; /* 當滑鼠經過超連結時，超連結往右下位移1像素 */
-top: 1px;
-left: 1px;
-}
-	
-.waterfall{
-  width: 85%;
-  margin: 20 auto;
-  column-count:2; /*  欄數 */
-  column-gap:20px; /*  每欄間隔 */
-}
-	
-</style>
 </head>
 
 <body>
 <div>
-	<span class="title_page">Plant Maze</span></br>植物迷宮
+	<span class="title_page">Plant Maze</span></br>
+	<span class="p">植物迷宮</span>
 </div>
 <div style="display: flex;">
     <!-- Sidebar -->
@@ -76,20 +18,22 @@ left: 1px;
         	<span class="title_list "><a href="about.html">About</a>
     		</span>
 			</br>
-       		<span class="title_list "><a href="publiction.html">Publiction</a>
-    		</span>
-			<p>
+       		<div class="title_list "><a href="publiction.html">Publiction</a>
+    		</div>
+			<div class="p">
   			<a href="Witch's Room.html">Witch's Room</a>
-			</p>
-  			<p>
+			</div>
+  			<span class="p">
   			<a href="Fern Paradise.html">Fern Paradise</a>
-			</p>
-  			<p>
-  			<a href="Lo Sui.html">Lo Shu</a>	</p>  
+			</span>
+			</br>
+  			<span class="p">
+  			<a href="Lo Sui.html">Lo Shu</a>
+			</br></span>  
 			<span class="title_list "><a href="illustraction.html">Illustraction</a>
     		</span>
 			<div style="border:1px ;padding:0px;">
-  			<a href="WU-YU Dance Conference booklet.html">WU-YU Dance Conference booklet</a>
+  			<div class="p"><a href="WU-YU Dance Conference booklet.html">WU-YU Dance Conference booklet</a>
 			</div>
 		</div>
     </aside>
@@ -115,21 +59,21 @@ left: 1px;
 				<div style="padding:15px 0px;">	
 					<div class="item">   <!-- 第一張卡片 --><a href="publiction.html"target="_blank" >
 					<img src="./src/12.jpg"/350x150></a>
-  					<div>Witch's Room</div>
+  					<div class="p">Witch's Room</div>
 					</div>
 				</div>
 					<div class="item">   <!-- 第二張卡片 -->
   					<a href="Fern Paradise.html"target="_blank" ><img src="./src/19.jpg"/350x150></a>
-  					<div>Fern Paradise </div>
+  					<div class="p">Fern Paradise </div>
 					</div>
 		
 				<div style="padding:15px 50px;">	<div class="item"><!-- 第三張卡片 -->
   					<a href="Lo Sui.html"target="_blank" ><img src="./src/1.jpg"/300x150></a>
-  					<div>Lo Shu</div>
+  					<div class="p">Lo Shu</div>
 					</div>
 				</div>
 				<div style="padding:15px 50px;">	<div class="item"><!-- 第四張卡片 -->
-  					<a href="illustraction.html"target="_blank" ><img src="./src/139.jpg"/300x700></a>  		<div>Illustraction：Plant Maze</div>
+  					<a href="illustraction.html"target="_blank" ><img src="./src/139.jpg"/300x700></a>  <div class="p">Illustraction：Plant Maze</div>
 					</div>	
 				</div>
  		</div>
