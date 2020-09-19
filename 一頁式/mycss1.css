@@ -55,7 +55,7 @@ font-size: 30px;/*字體大小*/
 color: #000000;/*字體顏色*/
 font-family: "Forte";/*字體*/
 text-align: center;	
-line-height:16px;
+line-height:30px;
 }
 
 .title_list {
@@ -92,5 +92,18 @@ left: 1px;
 	top:10px;
 	left:200px;
 }	
-	
+
+.img-content img:first-child{ /* 定義每篇文章的第一張圖 */
+position: absolute;  /* 定義圖檔的位置在文章左上角 */
+top: 0px;
+left: 0px;
+
+}
+
+.img-content img:first-child a:hover {
+right: 100px;  /* 當滑鼠經過文章時，圖檔的位置變成在文章右上角 */
+left: auto;
+
+}
+
 </style>
