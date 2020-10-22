@@ -9,7 +9,7 @@ font-family:"微軟正黑體";
 font-size: 16px;/*字體大小*/
 }
 
-.back1{
+.backgrground1{
 width:1000px;
 height:150px;
 background: -webkit-linear-gradient(left,#66ccff,#00537d);
@@ -18,25 +18,20 @@ background: -moz-linear-gradient(right,#66ccff,#00537d);
 background: linear-gradient(to right,#66ccff,#00537d);
 }
 
-.background
-{
-	background-color:#b0c4de;
-}
-
 .p {
-font-size: 13px;/*字體大小*/
+font-size: 14px;/*字體大小*/
 color: #000000;/*字體顏色*/
 font-family: "微軟正黑體";/*字體*/
 font-weight:bold;
 text-align: center;	
-line-height:22px;
+line-height:20px;
 }
 
 .introduce {
 font-size: 16px;/*字體大小*/
 font-weight: regular;/*粗體字*/
 color: #000033;/*字體顏色*/
-text-align: center;	
+text-align: left;	
 font-family: "微軟正黑體";/*字體*/
 }	
 	
@@ -45,16 +40,16 @@ font-size: 20px;/*字體大小*/
 font-weight:bold;
 color: #000000;/*字體顏色*/
 font-family: "微軟正黑體";/*字體*/
-line-height:10px;
-text-align: center;	
-margin: 10px auto;
+line-height:30px;
+text-align: left;	
+margin: 30px 0px;
 }	
 
-.title_page {
+.title {
 font-size: 30px;/*字體大小*/
 color: #000000;/*字體顏色*/
 font-family: "Forte";/*字體*/
-text-align: center;	
+text-align: left;	
 line-height:30px;
 }
 
@@ -64,10 +59,14 @@ color: #000000;/*字體顏色*/
 font-family: "微軟正黑體";/*字體*/
 font-style:oblique;/*斜體*/	
 font-weight:bold;
-text-align: center;	
+text-align: left;	
 line-height:22px;
 }
 
+.background
+{
+	background-color:#b0c4de;
+}
 
 p{ line-height:10px} 
 /* css 註釋： 設定行高為20px */ 
@@ -97,25 +96,25 @@ left: 1px;
     margin: 30px auto 48px auto;
 }
 
-
-.row {
-    margin-top: 40px;
+.float-item {
+  background: #ccc;
+  width: 600px;
+  height: 400px;
+  margin: 10px;
+  float: left;
 }
-
-.column {
-    display: inline-block;
-    text-align: center;
+.content {
+  padding: 30px;
+  // 1. 如果下面把溢出部份hidden掉了，就繞不了囉！
+  // overflow: hidden; 
+  // 2. 在這裡清除浮動(下兩種都不行)，文繞圖也是會失敗！
+  // clear: both; 
+  // @extend %clearfix;
 }
-
-figure {
-    overflow: hidden;
-}
-
-
-.column img {
-    display: block;
-    width: 100%;
-    height: 350px;
+.container {
+  width: 300px;
+  margin: 20 auto;
+  @extend %clearfix;
 }
 
 
@@ -133,8 +132,8 @@ figure {
 
 /*Zoom Out*/
 .column#zoomOut img {
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
@@ -143,7 +142,25 @@ figure {
     transform: scale(1);
 }
 
-#DIV1{
+#introduce{
+font-size: 20px;/*字體大小*/
+padding:10px;
+margin-right:10px;
+font-family: "Forte";/*字體*/
+}
+
+
+#work{
+width:900px;
+line-height:20px;
+padding:10px;
+border:1px blue solid;
+margin-right:10px;
+font-family: "Forte";/*字體*/	
+}
+
+
+#work1{
 width:600px;
 line-height:30px;
 padding:10px;
@@ -152,7 +169,7 @@ margin-right:10px;
 float:left;
 }
 
-#DIV2{
+#work2{
 width:600px;
 line-height:30px;
 padding:10px;
@@ -160,5 +177,33 @@ border:1px green solid;
 margin-right:10px;	
 float:left;
 }
+
+#work3{
+width:600px;
+line-height:30px;
+padding:10px;
+border:1px red solid;
+margin-right:10px;	
+float:left;
+}
+
+#work4{
+width:600px;
+line-height:50px;
+padding:10px;
+border:1px yellow solid;
+margin-right:10px;	
+float:left;
+}
+
+#work5{
+width:1500px;
+line-height:30px;
+padding:10px;
+border:1px black solid;
+margin-right:10px;	
+float:left;
+}
+
 
 </style>
