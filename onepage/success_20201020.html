@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" "viewport" content="width=device-width, initial-scale=1.0" maximum-scale=1.0, minimum-scale=1.0, user-scalable=0/>
+	
 <title>世達先進 實例報導</title>
 
 <style type="text/css">
@@ -10,10 +10,13 @@
 body {
 	background-color: #999;
 	text-align: left;
+	font-size: 18px;/*字體大小*/
+	font-family:"微軟正黑體";
 }
 body p {
 	text-align: left;
 	font-family:"微軟正黑體";
+	font-size: 18px;/*字體大小*/
 }
 
 .style1 {
@@ -31,45 +34,66 @@ line-height:30px;'
 }	
 	
 
-img {
-    max-width: 100%;
-    height: auto;
-}	
-	
-@media  screen and (min-width: 100px) {
-    body{
-        color:#000000;
-        font-size: 20px;
-		
-    }
+img{
+    max-width:100%; /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/
+    height:auto;
 }
+	
+img2{
+    max-width:100%; /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/
+    height:auto;
+}		
+
 @media  screen and (min-width: 400px) and (max-width: 900px) {
     body{
-        color:#FF0004;
-        font-size: 20px;
-    }
+        color:#000000;
+        font-size: 30px;
+		}
 }
-@media  screen and (min-width: 200px) and (max-width: 320px){
+@media  screen and (min-width: 360px) and (max-width: 320px)and (min-height: 640px){
     body{
         color:#000000;
-        font-size: 18px;
+        font-size: 22px;
     }
 }
-	
-@media  screen and (min-width: 50px) and (max-width: 200px){
-    body{
-        color:#000000;
-        font-size: 18px;
-    }
-}	
 
-@media screen and (max-width:900px) { 
+
+@media screen and (max-width:900px)and (min-width: 360px) { 
   .img{
     width: 1000px;
   }
 }	
 	
-
+*,*:before,*:after{box-sizing: border-box;}
+.body{
+  max-width:700px;
+  margin: 0 auto;
+  }
+	
+.img{
+  background: url(http://service.gati.com.tw/e-dm/2020/successcase/20201020success_top.jpg
+) no-repeat;
+  width: 100%;
+  height: 150px;
+  background-size:cover;
+  background-position:center center;
+}
+	
+.img2{
+  background: url(http://service.gati.com.tw/e-dm/2020/successcase/construction_old1.jpg
+) no-repeat;
+  width: 100%;
+  height: 350px;
+  background-size:cover;
+  background-position:center center;
+}	
+	
+@media(max-width:900px){
+  .img{
+    height:auto;/*取代 斷點900px以上設定的 350px高度，不然下方的最小高度500px會無效*/
+    min-height:236px;    
+  }
+}	
 
 </style>
 <script type="text/javascript">
@@ -110,9 +134,9 @@ function MM_preloadImages() { //v3.0
     </tr>
     <tr>
       <td bgcolor="#E8E8EA">&nbsp;</td>
-      <td bgcolor="#E8E8EA"><p><span class="style2">此次使用BE備份產品的是以製造主機板及顯示卡起家，跨足消費電子及商務應用市場，其產品線延伸至筆記型電腦、All-in-One桌機、伺服器、工作站電腦、工業電腦、智慧型家電、車用電子、準系統、多媒體及通訊產品等等。<br />
+      <td bgcolor="#E8E8EA"><div class="body">此次使用BE備份產品的是以製造主機板及顯示卡起家，跨足消費電子及商務應用市場，其產品線延伸至筆記型電腦、All-in-One桌機、伺服器、工作站電腦、工業電腦、智慧型家電、車用電子、準系統、多媒體及通訊產品等等。<br />
         世達先進在本次案例中，協助客戶使用備份軟體，規劃備份架構、網路環境與專業建議。本次專案包含了新舊版本OS與備份系統架構微調，最後成功整合。 <br />
-</span></p></td>
+</div></td>
       <td bgcolor="#E8E8EA">&nbsp;</td>
       <td bgcolor="#E8E8EA">&nbsp;</td>
     </tr>
@@ -136,11 +160,11 @@ function MM_preloadImages() { //v3.0
     </tr>
     <tr>
       <td bgcolor="#E8E8EA">&nbsp;</td>
-      <td align="left" valign="top" bgcolor="#E8E8EA"><p><span class="style2">1. BE</span><span class="style2">20.X安裝於Win2016主機上<br />
-      2. 環境以Windows為主，有實體機＋虛擬機
+      <td align="left" valign="top" bgcolor="#E8E8EA"><div class="body">1. BE20.X安裝於Win2016主機上<br />
+      2. 環境以Windows為主，有實體機＋虛擬機</div>
       <br />
       <br />
-        <div class="img"><img src="http://service.gati.com.tw/e-dm/2020/successcase/construction_old1.jpg" name="Image5" width="700" height="350" border="0" align="left" /></div></span></p></td>
+        <div class="img2"><img src="http://service.gati.com.tw/e-dm/2020/successcase/construction_old1.jpg" name="Image5" width="700" height="350" border="0" align="left" /></div></td>
       <td bgcolor="#E8E8EA">&nbsp;</td>
       <td bgcolor="#E8E8EA">&nbsp;</td>
     </tr>
@@ -165,12 +189,12 @@ function MM_preloadImages() { //v3.0
     </tr>
     <tr>
       <td bgcolor="#E8E8EA">&nbsp;</td>
-      <td align="left" valign="top" bgcolor="#E8E8EA"><p><span class="style2">1. 新舊Windows備份主機系統整合<br />
+      <td align="left" valign="top" bgcolor="#E8E8EA"><div class="body">1. 新舊Windows備份主機系統整合<br />
 2. 虛擬平台備份建議提供<br />
 3. 備份上Tape<br />
 4. 資訊設備預算有限<br />
 5. 客戶不知道該如何規劃與採購最新授權<br />
-      </span></p></td>
+      </div></td>
       <td bgcolor="#E8E8EA">&nbsp;</td>
       <td bgcolor="#E8E8EA">&nbsp;</td>
     </tr>
