@@ -1,0 +1,312 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>花女巫</title>
+<style>
+/*title的語法*/	
+	
+.all{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+	
+.banner{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-width:3px;
+  background-color: antiquewhite;	
+}
+	
+.menu{
+  display: flex;
+  flex: 0 0 80px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+  font-weight: bold;
+  font-size:22px;
+  border-width:3px;
+  background-color: antiquewhite;
+}
+	
+.menu ul{
+  display: flex;
+}
+	
+.menu ul li{
+  padding: 60px;
+}	
+	
+	
+/*第一層的語法*/
+
+	
+.card1{
+  flex-direction: column;
+  max-width: 100%;
+  background-color: #ffffff;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center; 
+  border-width:3px;
+ }
+	
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 500px;
+}
+	
+.container .col{
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EAF0ED;
+  border: 2px solid #FFFBEE;
+  box-sizing: border-box;
+  width: 25%;
+  border-radius: 10px;
+  color: #214093;
+  font-size: 20px;
+}
+	
+.container .col.main{
+  flex: 1 1 100%;
+  width: 50%;
+  font-size: 15px;
+}	
+
+      
+.container-text h4 {
+  text-align: center;
+  padding: 0 0;
+        }
+        
+.container-text p {
+    text-align: center;
+    padding-bottom: 0px;
+        }
+
+/*區塊2的語法*/	
+	
+.banner2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #B7D6D1;
+  padding: 10px 10px;
+  }	
+	
+.card2{
+  flex-direction: column;
+  padding: 30px 30px 30px 30px;
+  font-weight: bold;
+  text-align: center; 
+   }
+
+.container2{
+  display: flex;
+ }	
+	
+	
+.row{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px auto;
+  background-color: #EAF0ED;
+  color: #3F5D45;
+  border-radius: 10px;	
+  padding: 20px 10px 20px 10px;
+  font-size: 20px;
+}
+	
+	
+/*區塊3的語法*/
+	
+.banner3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-width:10px;
+  padding: 10px 10px;
+  background-color: #D1E0FF;
+}		
+	
+
+.card3{
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 30px 50px 50px 50px;
+  font-weight: bold;
+  text-align: center; 
+  }	
+	
+	
+.container3{
+  display: flex;  
+  align-items: center;
+}
+	
+ .col3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EAF0ED;
+  padding: 20px 30px 40px 30px ;
+  border-radius: 5px;
+}
+	
+	
+.col.main3{
+  text-align : center;
+  margin: 10px 10px 10px 10px ;
+  padding: 20px 30px 40px 30px ;
+  background-color: #66ABFE;	
+}
+	
+/*底層的語法*/
+	
+
+.wrapper_buttom {
+
+  min-height: 100%; /*外層高度100%*/
+  margin-bottom: -50px; /*隨footer高度需做調整*/
+}
+	
+.footer{
+  height: 80px; /*設定footer本身高度*/
+  background-color: antiquewhite;
+}	
+	
+</style>
+</head>
+	
+<body>
+
+<div class="all">
+  <div class="banner">
+    <img src="images/1.jpg" alt="">
+  </div>
+  <div class="menu">
+    <img src="images/2.png" width="150" alt="">
+    <ul>
+      <li>Life</li>
+      <li>Enjoy</li>
+      <li>Simple</li>
+      
+    </ul>
+  </div>
+</div>
+	
+
+
+<div class="card1">
+   <h1>Life</h1>
+	  <p>午後來點放鬆的音樂，搭配好茶與書籍</p>
+    <div class="container">
+    <div class="col main">
+      	 <img src="images/3.JPG" width="550" alt="">
+	</div>
+    <div class="col">
+      		<img src="images/6.JPG" width="250" alt="">
+    </div>
+    <div class="col">
+      <img src="images/7.jpg" width="220" alt="">
+    </div>
+    <div class="col">
+      <img src="images/4.JPG" width="160" alt="">
+    </div>
+    <div class="col">
+    	<img src="images/5.jpg" width="160" alt="">
+    </div>
+  </div>
+</div>	
+
+<div class="all">
+  <div class="banner2">
+    <img src="images/8.jpg" alt="">
+  </div>
+	
+<div class="card2">	
+	  <h1>Enjoy</h1>
+	  <p>法式甜點</p>
+  	<div class="container2">
+ 		<div class="row">
+    		<div class="col">
+				<P align=center><img src="images/9.png" width="100" ><P align=center>
+       				<div style="text-align:center;">
+        			<h3>純生巧克力布蕾蛋糕</h3></div>
+					<span style="font-size:10px;">1.巧克力切碎後加入鮮奶油拌勻</br>
+					2.以隔水加熱的方式將巧克力融化後關火</br>(水勿滾，巧克力溫度勿超過50度)</br>
+					3.倒入蘭姆酒或白蘭地拌勻後，倒入模具冷藏變硬，</br>取出切片在灑上可可粉就完成囉</span> 
+   			 </div>
+    		<div class="col">
+				 <P align=center><img src="images/10.png" width="100"></p>
+           		<div style="text-align:center;">
+        			<h3>清檸重乳酪</h3>
+				</div>
+        				<span style="font-size:10px;">1.巧克力切碎後加入鮮奶油拌勻</br>
+					2.以隔水加熱的方式將巧克力融化後關火</br>(水勿滾，巧克力溫度勿超過50度)</br>
+					3.倒入蘭姆酒或白蘭地拌勻後，倒入模具冷藏變硬，</br>取出切片在灑上可可粉就完成囉</span>
+      			
+    		</div>
+    		<div class="col">
+				 <P align=center><img src="images/11.png" width="100"></p>
+            	<div style="text-align:center;">
+        			<h3>搭波芋泥波波千層</h3>
+					</div>
+        				<span style="font-size:10px;">1.巧克力切碎後加入鮮奶油拌勻</br>
+					2.以隔水加熱的方式將巧克力融化後關火</br>(水勿滾，巧克力溫度勿超過50度)</br>
+					3.倒入蘭姆酒或白蘭地拌勻後，倒入模具冷藏變硬，</br>取出切片在灑上可可粉就完成囉</span>
+      			
+    		</div>
+  		</div>
+	</div>
+</div>	
+</div>	
+	
+<div class="banner3">
+	<img src="images/16.jpg" alt="">    
+</div>	
+<div class="card3">	
+	 <h1>Simple</h1>
+	  <p>書與森</p>
+	<div class="container3">
+  		<div class="col3">
+    		<h3>極度浪漫</h3>
+    			<img src="images/17.jpg" width="200" alt="">
+    				<p>青山依舊在，幾度夕陽紅。慣看秋月春風。<br>一壺濁酒喜相逢，浪花淘盡英雄。<br>是非成敗轉頭空，滾滾長江東逝水，<br>白髮漁樵江渚上，<br>古今多少事，都付笑談中。</p>
+   		</div>
+  		<div class="col main3">
+    		<h3>白花</h3>
+    			<img src="images/18.JPG" width="200" alt="">
+    				<p>青山依舊在，幾度夕陽紅。慣看秋月春風。<br>一壺濁酒喜相逢，浪花淘盡英雄。<br>是非成敗轉頭空，滾滾長江東逝水，<br>白髮漁樵江渚上，<br>古今多少事，都付笑談中。</p>
+    	</div>
+  		<div class="col3">
+    		<h3>夏日</h3>
+    			<img src="images/19.jpg" width="300" alt="">
+    				<p>青山依舊在，幾度夕陽紅。慣看秋月春風。<br>一壺濁酒喜相逢，浪花淘盡英雄。<br>是非成敗轉頭空，滾滾長江東逝水，<br>白髮漁樵江渚上，<br>古今多少事，都付笑談中。</p>
+   
+  		</div>
+	</div>	
+</div>	
+	
+
+<div class="wrapper_buttom">
+      <footer class="footer">
+		<div style="text-align:center;">
+        		<h3>Copyright AB WANG</h3>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
