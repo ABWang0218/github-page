@@ -1,0 +1,100 @@
+
+ <!-- 背景 -->
+<section data-aos="fade" class="kv" class="kv aos-init aos-animate"></section>
+
+<!-- 背景動畫 -->
+<section class="bg-animation">
+    <svg viewbox="0 0 1922.48 1079.62">
+        <line class="line" x1="961.24" x2="1.61" y1="0.5" y2="0.5"></line>
+        <line class="line" x1="961.24" x2="1.27" y1="0.5" y2="34.06"></line>
+        <line class="line" x1="961.24" x2="1.89" y1="0.5" y2="67.71"></line>
+        <line class="line" x1="961.24" x2="1.61" y1="0.5" y2="101.47"></line>
+        <line class="line" x1="961.24" x2="1.61" y1="0.5" y2="135.86"></line>
+        <line class="line" x1="961.24" x2="1.61" y1="0.5" y2="169.59"></line>
+        <line class="line" x1="961.24" x2="0.92" y1="0.5" y2="204.86"></line>
+        <line class="line" x1="961.24" x2="1.61" y1="0.5" y2="240.48"></line>
+        <line class="line" x1="961.24" x2="1.61" y1="0.5" y2="275.83"></line>
+        <line class="line" x1="961.24" x2="1.12" y1="0.5" y2="312.64"></line>
+        <line class="line" x1="961.24" x2="1.24" y1="0.5" y2="350.26"></line>
+        <line class="line" x1="961.24" x2="1.29" y1="0.5" y2="388.56"></line>
+        <line class="line" x1="961.24" x2="1.24" y1="0.5" y2="428.64"></line>
+        <line class="line" x1="961.24" x2="2.07" y1="0.5" y2="468.57"></line>
+        <line class="line" x1="961.24" x2="0.23" y1="0.5" y2="511.73"></line>
+        <line class="line" x1="961.24" x2="0.27" y1="0.5" y2="555.58"></line>
+        <line class="line" x1="961.24" x2="1.35" y1="0.5" y2="600.03"></line>
+        <line class="line" x1="961.24" x2="1.24" y1="0.5" y2="648.15"></line>
+        <line class="line" x1="961.24" x2="3.04" y1="0.5" y2="697.03"></line>
+        <line class="line" x1="961.24" x2="2.85" y1="0.5" y2="749.6"></line>
+        <line class="line" x1="961.24" x2="1.24" y1="0.5" y2="805.47"></line>
+        <line class="line" x1="961.24" x2="2.02" y1="0.5" y2="863.98"></line>
+        <line class="line" x1="961.24" x2="2.28" y1="0.5" y2="926.39"></line>
+        <line class="line" x1="961.24" x2="1.24" y1="0.5" y2="994.97"></line>
+        <line class="line" x1="961.24" x2="1.24" y1="0.5" y2="1066.47"></line>
+        <line class="line" x1="961.24" x2="56.77" y1="0.5" y2="1078.57"></line>
+        <line class="line" x1="961.24" x2="121.06" y1="0.5" y2="1076.05"></line>
+        <line class="line" x1="961.24" x2="177.8" y1="0.5" y2="1078.99"></line>
+        <line class="line" x1="961.24" x2="233.92" y1="0.5" y2="1079.12"></line>
+        <line class="line" x1="961.24" x2="287.46" y1="0.5" y2="1078.94"></line>
+        <line class="line" x1="961.24" x2="338.96" y1="0.5" y2="1078.94"></line>
+        <line class="line" x1="961.24" x2="387.79" y1="0.5" y2="1078.94"></line>
+        <line class="line" x1="961.24" x2="435.46" y1="0.5" y2="1078.94"></line>
+        <line class="line" x1="961.24" x2="480.72" y1="0.5" y2="1078.94"></line>
+        <line class="line" x1="961.24" x2="525.5" y1="0.5" y2="1079.38"></line>
+        <line class="line" x1="961.24" x2="569.52" y1="0.5" y2="1078.94"></line>
+        <line class="line" x1="961.24" x2="611.63" y1="0.5" y2="1076.93"></line>
+        <line class="line" x1="961.24" x2="651.87" y1="0.5" y2="1077.85"></line>
+        <line class="line" x1="961.24" x2="693.12" y1="0.5" y2="1077.68"></line>
+        <line class="line" x1="961.24" x2="732.63" y1="0.5" y2="1076.49"></line>
+        <line class="line" x1="961.24" x2="772.14" y1="0.5" y2="1073.39"></line>
+        <line class="line" x1="961.24" x2="810.17" y1="0.5" y2="1078.85"></line>
+        <line class="line" x1="961.24" x2="848.52" y1="0.5" y2="1073.43"></line>
+        <line class="line" x1="961.24" x2="885.7" y1="0.5" y2="1078.94"></line>
+        <line class="line" x1="961.24" x2="923.6" y1="0.5" y2="1078.68"></line>
+        <line class="line" x1="961.24" x2="961.24" y1="0.5" y2="1079.34"></line>
+        <line class="line" x1="961.24" x2="999.37" y1="0.5" y2="1078.19"></line>
+        <line class="line" x1="961.24" x2="1036.46" y1="0.5" y2="1076.71"></line>
+        <line class="line" x1="961.24" x2="1075.12" y1="0.5" y2="1078.94"></line>
+        <line class="line" x1="961.24" x2="1113.27" y1="0.5" y2="1078.85"></line>
+        <line class="line" x1="961.24" x2="1151.12" y1="0.5" y2="1078.94"></line>
+        <line class="line" x1="961.24" x2="1189.85" y1="0.5" y2="1076.49"></line>
+        <line class="line" x1="961.24" x2="1230.27" y1="0.5" y2="1077.68"></line>
+        <line class="line" x1="961.24" x2="1270.16" y1="0.5" y2="1078.29"></line>
+        <line class="line" x1="961.24" x2="1311.28" y1="0.5" y2="1076.5"></line>
+        <line class="line" x1="961.24" x2="1351.82" y1="0.5" y2="1074.02"></line>
+        <line class="line" x1="961.24" x2="1396.97" y1="0.5" y2="1078.6"></line>
+        <line class="line" x1="961.24" x2="1441.12" y1="0.5" y2="1079.34"></line>
+        <line class="line" x1="961.24" x2="1487.12" y1="0.5" y2="1079.34"></line>
+        <line class="line" x1="961.24" x2="1535.12" y1="0.5" y2="1079.34"></line>
+        <line class="line" x1="961.24" x2="1584.46" y1="0.5" y2="1078.94"></line>
+        <line class="line" x1="961.24" x2="1633.83" y1="0.5" y2="1077.13"></line>
+        <line class="line" x1="961.24" x2="1688.78" y1="0.5" y2="1079.34"></line>
+        <line class="line" x1="961.24" x2="1744.86" y1="0.5" y2="1078.81"></line>
+        <line class="line" x1="961.24" x2="1801.58" y1="0.5" y2="1075.88"></line>
+        <line class="line" x1="961.24" x2="1865.54" y1="0.5" y2="1078.4"></line>
+        <line class="line" x1="961.24" x2="1921.24" y1="0.5" y2="1066.64"></line>
+        <line class="line" x1="961.24" x2="1921.24" y1="0.5" y2="994.64"></line>
+        <line class="line" x1="961.24" x2="1920.2" y1="0.5" y2="926.39"></line>
+        <line class="line" x1="961.24" x2="1920.23" y1="0.5" y2="864.21"></line>
+        <line class="line" x1="961.24" x2="1921.24" y1="0.5" y2="805.97"></line>
+        <line class="line" x1="961.24" x2="1919.95" y1="0.5" y2="749.27"></line>
+        <line class="line" x1="961.24" x2="1919.43" y1="0.5" y2="697.03"></line>
+        <line class="line" x1="961.24" x2="1921.24" y1="0.5" y2="647.97"></line>
+        <line class="line" x1="961.24" x2="1920.69" y1="0.5" y2="600.46"></line>
+        <line class="line" x1="961.24" x2="1922.21" y1="0.5" y2="555.58"></line>
+        <line class="line" x1="961.24" x2="1922.24" y1="0.5" y2="511.73"></line>
+        <line class="line" x1="961.24" x2="1920.41" y1="0.5" y2="468.57"></line>
+        <line class="line" x1="961.24" x2="1921.24" y1="0.5" y2="427.97"></line>
+        <line class="line" x1="961.24" x2="1922.28" y1="0.5" y2="388.56"></line>
+        <line class="line" x1="961.24" x2="1921.24" y1="0.5" y2="349.77"></line>
+        <line class="line" x1="961.24" x2="1921.24" y1="0.5" y2="312.64"></line>
+        <line class="line" x1="961.24" x2="1921.24" y1="0.5" y2="276.04"></line>
+        <line class="line" x1="961.24" x2="1921.24" y1="0.5" y2="240.3"></line>
+        <line class="line" x1="961.24" x2="1921.55" y1="0.5" y2="204.86"></line>
+        <line class="line" x1="961.24" x2="1919.53" y1="0.5" y2="169.34"></line>
+        <line class="line" x1="961.24" x2="1919.54" y1="0.5" y2="135.27"></line>
+        <line class="line" x1="961.24" x2="1918.79" y1="0.5" y2="101.02"></line>
+        <line class="line" x1="961.24" x2="1921.71" y1="0.5" y2="67.58"></line>
+        <line class="line" x1="961.24" x2="1920.81" y1="0.5" y2="34.54"></line>
+        <line class="line" x1="961.24" x2="1921.39" y1="0.5" y2="1.03"></line>
+    </svg>
+</section>   
