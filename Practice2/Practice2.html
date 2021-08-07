@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Practice</title>
+	<style>
+		
+  body{
+  background-color: #FFE7E7;
+  padding: 50px 50px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }	
+
+ .container{
+  display: flex;  
+  align-items: center;
+}
+		
+.container .col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EAF0ED;
+  padding: 20px 30px 40px 30px ;
+  border-radius: 5px;
+}
+	
+		
+.container .col button{
+  background-color: #3F5D45;
+  border: 0;
+  color: #fff;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+}
+		
+.container .col.main{
+  margin: 0 10px;
+  padding: 40px 30px 60px 30px ;
+}	
+		
+.wave {
+  background: #6a82fb;
+  width: 500px;
+  height: 500px;
+  border-radius: 30%;
+  opacity: 0.4;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+  transform-origin: center;
+  animation: drift 7s infinite linear;
+}		
+	
+.wave.two {
+  animation: drift 9s infinite linear;
+}		
+		
+.wave.three {
+  animation: drift 11s infinite linear;
+  opacity: 0.1;
+}		
+		
+@keyframes drift {
+  0 {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}		
+	
+		
+  .wrapper {
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+		
+.wrapper:after {
+  content: "";
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    #ff99aa,
+    rgba(238, 221, 255, 0) 80%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  z-index: 11;
+  transform: translate3d(0, 0, 0);
+}	
+		
+		
+ 
+	
+
+		
+		
+		
+</style>	
+</head>
+
+<body>
+<div class="wrapper">
+  <div class="wave one"></div>
+  <div class="wave two"></div>
+  <div class="wave three"></div>
+  
+	
+</div>		
+<div class="container">	
+<div class="wrapper">
+  <div class="wave one"></div>
+  <div class="wave two"></div>
+  <div class="wave three"></div>
+  <div class="col">
+    <h3>為什麼選擇了做甜點？</h3>
+    <img src="https://i.imgur.com/wWTb3rP.png" width="100" alt="">
+    <p>青山依舊在，幾度夕陽紅。慣看秋月春風。<br>一壺濁酒喜相逢，浪花淘盡英雄。<br>是非成敗轉頭空，滾滾長江東逝水，<br>白髮漁樵江渚上，<br>古今多少事，都付笑談中。</p>
+    <button>馬上購買</button>
+  </div>
+</div>
+	
+  <div class="col">
+    <h3>為什麼選擇了做甜點？</h3>
+    <img src="https://i.imgur.com/wWTb3rP.png" width="100" alt="">
+    <p>青山依舊在，幾度夕陽紅。慣看秋月春風。<br>一壺濁酒喜相逢，浪花淘盡英雄。<br>是非成敗轉頭空，滾滾長江東逝水，<br>白髮漁樵江渚上，<br>古今多少事，都付笑談中。</p>
+    <button>馬上購買</button>
+  </div>
+  <div class="col main">
+    <h3>為什麼選擇了做甜點？</h3>
+    <img src="https://i.imgur.com/wWTb3rP.png" width="100" alt="">
+    <p>青山依舊在，幾度夕陽紅。慣看秋月春風。<br>一壺濁酒喜相逢，浪花淘盡英雄。<br>是非成敗轉頭空，滾滾長江東逝水，<br>白髮漁樵江渚上，<br>古今多少事，都付笑談中。</p>
+    <button>馬上購買</button>
+  </div>
+  
+</div>
+	
+
+</body>
+</html>
