@@ -22,6 +22,7 @@
     height: 850px; 
 	}
 	
+	
 .centerBox{
 	width:100%;
 	max-width:1200px;
@@ -150,6 +151,29 @@ transition: transform .2s; /* Animation */
 transform: scale(1.5);	
 }	
 	
+/*Zoom In*/
+.column#zoomIn img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.column#zoomIn:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}	
+	
+/*Zoom Out*/
+.column#zoomOut img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.column#zoomOut:hover img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
 	
 	
 #work1{
@@ -210,7 +234,14 @@ h2,h3,h4{
 }	
 	
 	
-/*底部選單*/	
+/*底部選單*/
+	
+.butten {
+    text-align: center;
+    width: 100%;
+    height: 380px; 
+	}	
+	
 .but-left {
 position: absolute;
 top: 20px;
@@ -266,7 +297,7 @@ right:140px;
 	  <div class="wrapper-Title">
 	  <h1>女巫，概念</h1>
 		<div class="container">
-  			<div class="col">
+  			<div class="col" id = "zoomIn">
     		<img src="images/75.jpg" width="300">
     		<h2>The Witch of Endor</h2>
   			</div>
@@ -358,10 +389,10 @@ right:140px;
   </div>
 
 <!--buttom-->
-	<section class="top">
-	  <div class="centerBox">
+	<section class="butten">
+	  
 	    <div class="centerBox"> <img src="images/17.png"class="top-left" /> <img src="images/b_6.png" width="150" class=".but-left" /> <img src="images/b_7.png" width="250" class=".but-but1" /> </div>
-	  </div>
+	  
 	</section>
 </div>		
 </body>
