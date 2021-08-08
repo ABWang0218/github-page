@@ -1,0 +1,370 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Practice3</title>
+<style>
+	
+body,html{
+  height: 100%;
+  font-family: "Microsoft JhengHei,sans-serif;"
+}
+	
+.all{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+	
+.banner{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-width:3px;
+  background-color: antiquewhite;	
+}
+	
+.menu{
+  display: flex;
+  flex: 0 0 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  font-weight: bold;
+  font-size:22px;
+  border-width:3px;
+ 
+}
+	
+.menu ul{
+  display: flex;
+}
+	
+.menu ul li{
+  padding: 10px 50px;
+}	
+
+.title{
+  flex-direction: column;
+  max-width: 100%;
+  background-color: #ffffff;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center; 
+  border-width:3px;
+ }	
+	
+	
+h3{
+  margin-top: 0px;
+}
+	
+p{
+  margin: 0;
+}
+	
+.row{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+  background-color: #EAF0ED;
+  color: #3F5D45;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+}
+	
+.article{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 20px auto;
+  background-color: #EAF0ED;
+  color: #3F5D45;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+}	
+	
+	
+	
+.product{
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 20px auto;
+  background-color: #EAF0ED;
+  color: #3F5D45;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+}	
+	
+.col{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 0 20px;
+}
+	
+.col .con{
+  padding: 10px;
+}
+
+.type2 .col{
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding: 0 20px;
+}
+	
+.gaticlass {
+  flex-direction: column;
+}
+	
+.gaticlass .col{
+  display: flex;
+  align-items: center;
+}
+	
+.gaticlass .col.reverse{
+  flex-direction: row-reverse;
+}
+	
+.wrapper_buttom {
+ margin-bottom: -50px; /*隨footer高度需做調整*/
+}
+	
+.footer{
+  height: 20px; /*設定footer本身高度*/
+  background-color: antiquewhite;
+}		
+	
+	
+	
+</style>	
+</head>
+
+<body>
+<div class="all">
+	
+  <div class="banner">
+    <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="150" alt="">
+    <p>世達新鮮報</p>
+	  <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="150" alt=""> 
+  </div>
+  <div class="menu">
+    <ul>
+      <li><a href="#title-one">最新課程</a></li>
+      <li><a href="#title-two">強檔優惠</a></li>
+      <li><a href="#title-three">精選好文</a></li>
+	  <li><a href="#title-four">產品型錄</a></li>
+    </ul>
+  </div>
+	
+</div>
+<div class="title">
+   <h1 id="title-one">最新課程</h1> 
+</div>		
+ <div class="row gaticlass">
+    <div class="col">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="150">
+      <div class="con">
+        <h3>【2021/07/08(四)】防疫資安不中斷 善用備份321法則 斷絕與勒索軟體的連結</h3>
+        <p>突如其來的疫情爆發，無所不在的勒索軟體威脅，企業是否做好萬全的準備？</p>
+      </div>
+    </div>
+    <div class="col reverse">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="150">
+      <div class="con">
+        <h3>【2021/07/20(二)】Backup Exec強化雲儲存連結，抵禦病毒擴散</h3>
+        <p>多變的的網路世界，如何超前部屬，輕鬆防護更多資料？Backup Exec帶您了解BE21的強勁備份功能與上雲應用，加倍鞏固機密資料的安全！</p>
+      </div>
+    </div>
+    <div class="col">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="150">
+      <div class="con">
+        <h3>【2021/07/29(四)】發掘 everRun儲存技術趨勢！強化企業備援與穩健營運</h3>
+        <p>備份與備援同為企業的守護神，確保企業在面臨資安與內部環境的危機中，能保有珍貴的資料，保有業務不中斷的和組織經營順暢。</p>
+      </div>
+    </div>
+	  <div class="col reverse">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="150">
+      <div class="con">
+        <h3>【2021/08/10(二)】優化企業資安體質 抵禦針對性勒索攻擊</h3>
+        <p>面對新型態的勒索攻擊，傳統的資安防護網產生大量破口，多起業者遭受犯罪勒索攻擊贖金皆高達數億元新台幣。於此，企業需要增強自身的資安體質，打造資安防護網，抵禦針對性勒索攻擊。</p>
+      </div>
+    </div>
+	 
+	<div class="col">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="150">
+      <div class="con">
+        <h3>【2021/08/19(四)】全方位備份軟體 快速完成備份環境建置，完美連接各雲端儲存</h3>
+        <p>全方位支援企業環境內常見的伺服器、儲存設備、資料庫、及應用程式平台，同時具有強大的防勒索攻擊。通過備份數據看到是否有異常，自動化恢復大量的數據</p>
+      </div>
+    </div>
+   
+    <div class="col reverse">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="150">
+      <div class="con">
+        <h3>【2021/08/31(二)】VSR21防勒索心法：超光速備份，還原，轉換解決方案，降低損害(</h3>
+        <p>輕鬆還原個別資料檔案/資料夾，還原至不同的硬體或虛擬環境，協助將停機時間減至最少並避免災難。</p>
+      </div>
+    </div>
+	 <div class="col">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="150">
+      <div class="con">
+        <h3>【2021/09/09(四)】好用實體機安裝 打造備份不中斷，全方位守護企業</h3>
+        <p>完整且連續性的備份是資料保護的根本，在疫情期間，居家辦公成為常態，資安防護更為重要，站在資訊安全第一線的 MIS 和 IT 人員如何建構防禦策略？</p>
+      </div>
+    </div>
+   
+    <div class="col reverse">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="150">
+      <div class="con">
+        <h3>【2021/09/23(四)】IT的眼淚 無從準備的資安防禦？從零信任架構開始</h3>
+        <p>數位轉型帶來新的契機，但同時也衍伸出更多風險，面對勒索攻擊，傳統對外防禦不再足夠。本次課程從當前的勒索新型態，講解如何運用備份和零信任架構，到備份流程的建立，協助企業把資安風險降到最低。</p>
+      </div>
+    </div>
+  </div>	
+	
+	
+<div class="container">
+<div class="title">
+   <h1 id="title-two">強檔優惠</h1>  
+</div>	
+	
+  <div class="row">
+    <div class="col">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="60">
+      <div class="con">
+        <h3>AIP超值方案 前所未有</h3>
+        <p>購買3套AIP Virtual 即送IPAD！</p>
+      </div>
+    </div>
+    <div class="col">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="60">
+      <div class="con">
+        <h3>世達成功案例</h3>
+        <p>某光電科技業</p>
+      </div>
+    </div>
+    <div class="col">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="60">
+      <div class="con">
+        <h3>世達成功案例</h3>
+        <p>某光電科技業</p>
+      </div>
+    </div>
+  </div>
+	
+	<div class="title">
+   <h1 id="title-three">精選好文</h1> 
+	</div>  
+  <div class="article ">
+	
+   <div class="col">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="100">
+      <div class="con">
+        <h3>部落客專文推薦</h3>
+        <p>AIP利用5大功能保護你電腦的所有資料</p>
+      </div>
+    </div>
+    <div class="col">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="100">
+      <div class="con">
+        <h3>世達技術支援論壇</h3>
+        <p>你有養成備份的好習慣嗎？</p>
+      </div>
+    </div>
+  </div>
+	
+ <div class="title">
+   <h1 id="title-four">產品型錄</h1> 
+	</div>  
+	<div class="row">
+    <div class="col">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="60">
+      <div class="con">
+        <h3>世達Youtube/h3>
+        <p>E-learnin線上教學</p>
+      </div>
+    </div>
+    <div class="col">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="60">
+      <div class="con">
+        <h3>世達粉絲團</h3>
+        <p>更多精彩資訊</p>
+      </div>
+    </div>
+    <div class="col">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="60">
+      <div class="con">
+        <h3>世達Line官方帳號</h3>
+        <p>線上客服及時問答</p>
+      </div>
+    </div>
+  </div>
+  <div class="product type2">
+	
+    <div class="col">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="100">
+      <div class="con">
+        <h3>AIP</h3>
+        <p>AIP</p>
+      </div>
+    </div>
+    <div class="col">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="100">
+      <div class="con">
+        <h3>Veritas</h3>
+        <p>veritas</p>
+      </div>
+    </div>
+    <div class="col">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="100">
+      <div class="con">
+        <h3>veritas BE</h3>
+        <p>veritas BE</p>
+      </div>
+    </div>
+	
+    <div class="col">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="100">
+      <div class="con">
+        <h3>PLANET</h3>
+        <p>PLANET</p>
+      </div>
+    </div>
+	
+    <div class="col">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="100">
+      <div class="con">
+        <h3>TCAD</h3>
+        <p>TCAD</p>
+      </div>
+    </div>
+	 
+    <div class="col">
+      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="100">
+      <div class="con">
+        <h3>Other</h3>
+        <p>Other</p>
+      </div>
+    </div>
+  </div>
+	
+</div>
+ </div>
+
+<div class="wrapper_buttom">
+      <footer class="footer">
+		<div style="text-align:center;">
+        		<h3>世達先進科技股份有限公司</h3>
+		</div>
+	</footer>
+</div>	
+</body>
+</html>
