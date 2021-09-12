@@ -6,7 +6,7 @@
 <style>
 	
 body,html{
-  height: 100%;
+  
   font-family: "Microsoft JhengHei,sans-serif;"
 }
 	
@@ -22,16 +22,17 @@ body,html{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 5px 20px 20px 20px;
   border-width:3px;
-  background-color: antiquewhite;	
+  background-color: antiquewhite;
+	
 }
 	
 .menu{
   display: flex;
-  flex: 0 0 10px;
   align-items: center;
+  padding: 5px 5px 5px 5px;
   justify-content: center;
-  padding: 0 10px;
   font-weight: bold;
   font-size:22px;
   border-width:3px;
@@ -40,17 +41,19 @@ body,html{
 	
 .menu ul{
   display: flex;
+  padding: 10px 10px;
 }
 	
 .menu ul li{
-  padding: 10px 50px;
+  padding: 1em 30px;
 }	
 
 .title{
   flex-direction: column;
+  flex-wrap:wrap;	
   max-width: 100%;
   background-color: #ffffff;
-  padding: 10px 10px 10px 10px;
+  padding: 1em 10px 10px 10px;
   border-radius: 10px;
   font-weight: bold;
   text-align: center; 
@@ -68,17 +71,20 @@ p{
 	
 .row{
   display: flex;
+  flex-wrap:wrap;
   justify-content: space-between;
   width: 90%;
   margin: 20px auto;
   background-color: #EAF0ED;
   color: #3F5D45;
-  padding: 20px 20px 20px 20px;
+  padding: 5px 5px 5px 5px;
   border-radius: 5px;
 }
 	
+	
 .article{
   display: flex;
+  flex-wrap:wrap;
   justify-content: center;
   width: 90%;
   margin: 20px auto;
@@ -88,10 +94,10 @@ p{
   border-radius: 5px;
 }	
 	
-	
-	
+		
 .product{
   display: flex;
+  flex-wrap:wrap;	
   justify-content: space-around;
   width: 90%;
   margin: 20px auto;
@@ -101,6 +107,8 @@ p{
   border-radius: 5px;
 }	
 	
+
+	
 .col{
   display: flex;
   align-items: flex-start;
@@ -109,11 +117,14 @@ p{
 }
 	
 .col .con{
+  flex-wrap: wrap;
   padding: 10px;
 }
 
+	
 .type2 .col{
   flex-direction: column;
+  flex-wrap:wrap;
   align-items: center;
   justify-content: space-around;
   text-align: center;
@@ -124,7 +135,7 @@ p{
   flex-direction: column;
 }
 	
-.gaticlass .col{
+.gaticlass .col{ /*範例的type3*/
   display: flex;
   align-items: center;
 }
@@ -134,13 +145,16 @@ p{
 }
 	
 .wrapper_buttom {
- margin-bottom: -50px; /*隨footer高度需做調整*/
+ margin-bottom: -50px;
+ flex-wrap:wrap;	
+ justify-content: space-around;
 }
 	
 .footer{
   height: 20px; /*設定footer本身高度*/
   background-color: antiquewhite;
 }		
+
 	
 	
 	
@@ -149,22 +163,24 @@ p{
 
 <body>
 <div class="all">
-	
   <div class="banner">
-    <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="150" alt="">
-    <p>世達新鮮報</p>
-	  <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="150" alt=""> 
+	  <p>世達新鮮報</p>
+    <img src="new_banner-01.png" width="100%" alt="">
+    <img src="success_banner_2021Q3.jpg" width="100%" > 
   </div>
-  <div class="menu">
+</div>
+	
+<div class="row gaticlass">	
+<div class="menu">
     <ul>
       <li><a href="#title-one">最新課程</a></li>
       <li><a href="#title-two">強檔優惠</a></li>
       <li><a href="#title-three">精選好文</a></li>
 	  <li><a href="#title-four">產品型錄</a></li>
     </ul>
-  </div>
+  </div>	
+  </div>	
 	
-</div>
 <div class="title">
    <h1 id="title-one">最新課程</h1> 
 </div>		
@@ -172,8 +188,8 @@ p{
     <div class="col">
       <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="150">
       <div class="con">
-        <h3>【2021/07/08(四)】防疫資安不中斷 善用備份321法則 斷絕與勒索軟體的連結</h3>
-        <p>突如其來的疫情爆發，無所不在的勒索軟體威脅，企業是否做好萬全的準備？</p>
+        <a href="https://www.gati.com.tw/product-320.html"target="_blank"><h3>【2021/07/08(四)】防疫資安不中斷 善用備份321法則 斷絕與勒索軟體的連結</h3>
+        <p>突如其來的疫情爆發，無所不在的勒索軟體威脅，企業是否做好萬全的準備？</p></a>
       </div>
     </div>
     <div class="col reverse">
@@ -231,28 +247,28 @@ p{
   </div>	
 	
 	
-<div class="container">
+
 <div class="title">
    <h1 id="title-two">強檔優惠</h1>  
-</div>	
+</div>
 	
   <div class="row">
     <div class="col">
-      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="60">
+      <img src="2021Q3_1.jpg" >
       <div class="con">
         <h3>AIP超值方案 前所未有</h3>
         <p>購買3套AIP Virtual 即送IPAD！</p>
       </div>
     </div>
     <div class="col">
-      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="60">
+      <img src="2021Q3_2.jpg" >
       <div class="con">
         <h3>世達成功案例</h3>
         <p>某光電科技業</p>
       </div>
     </div>
     <div class="col">
-      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="60">
+      <img src="2021Q3_2.jpg" >
       <div class="con">
         <h3>世達成功案例</h3>
         <p>某光電科技業</p>
@@ -266,14 +282,14 @@ p{
   <div class="article ">
 	
    <div class="col">
-      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="100">
+      <img src="2021Q3_3.jpg" >
       <div class="con">
         <h3>部落客專文推薦</h3>
         <p>AIP利用5大功能保護你電腦的所有資料</p>
       </div>
     </div>
     <div class="col">
-      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="100">
+      <img src="2021Q3_4.jpg">
       <div class="con">
         <h3>世達技術支援論壇</h3>
         <p>你有養成備份的好習慣嗎？</p>
@@ -286,27 +302,28 @@ p{
 	</div>  
 	<div class="row">
     <div class="col">
-      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="60">
+      <img src="e_learning1.jpg" width="200">
       <div class="con">
-        <h3>世達Youtube/h3>
+        <h3>世達Youtube</h3>
         <p>E-learnin線上教學</p>
       </div>
     </div>
     <div class="col">
-      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="60">
+      <img src="fb_like.jpg"width="200">
       <div class="con">
         <h3>世達粉絲團</h3>
         <p>更多精彩資訊</p>
       </div>
     </div>
     <div class="col">
-      <img src="https://pei-qun.github.io/Sweetaste/img/flex-ex-img1.svg" width="60">
+      <img src="Line@.jpg" width="200">
       <div class="con">
         <h3>世達Line官方帳號</h3>
         <p>線上客服及時問答</p>
       </div>
     </div>
   </div>
+	
   <div class="product type2">
 	
     <div class="col">
@@ -356,8 +373,9 @@ p{
     </div>
   </div>
 	
-</div>
- </div>
+
+
+	
 
 <div class="wrapper_buttom">
       <footer class="footer">
